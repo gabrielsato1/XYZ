@@ -1,0 +1,1 @@
+projeto para a atividade somativa 1, que consisteem armazenar o projeto web da empresa XYZ em um site de versionamento.
