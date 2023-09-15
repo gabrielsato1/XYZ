@@ -9,7 +9,7 @@ install:
 
 script:
   - docker pull gabrielsato1/XYZ
-  - docker run -v $PWD/:/app/reportgabrielsato1/XYZ
+  - docker run -v $PWD/:/app/report/gabrielsato1/XYZ
 
 after_script:
  - bash ./telegram_notification.sh 
