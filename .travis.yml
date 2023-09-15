@@ -12,5 +12,5 @@ script:
   - docker run -v $PWD/:/app/reportgabrielsato1/XYZ
 
 after_script:
- - bash ,/telegram_notification.sh 
+ - bash ./telegram_notification.sh 
   
