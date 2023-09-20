@@ -1,0 +1,136 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "How are u",
+        "Hello, I need help",
+        "Hello I need help",
+        "Good morning",
+        "Good afternoon",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thats helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "What services do you provide?",
+        "What is Inconnection?",
+        "What are your services?",
+        "What do you provide?"
+      ],
+      "responses": [
+        "We are a live, hybrid and virtual events agency - however, we have a range of services we provide, including MemMail our gift sending service and MyRewards our rewards platform. To learn more about these, just ask me!"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What type of events do you do?",
+        "What are hybrid events?",
+        "What are virtual events?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "memmail",
+      "patterns": [
+        "What is MemMail?",
+        "Tell me more about MemMail"
+      ],
+      "responses": [
+        "Inconnection's personalised sending service, MemMail, helps you give your business relationships the personal touch they need to create a lasting impression. From branded merchandise that puts your company on the map, to personalised gifts and sincere thank yous."
+      ]
+    },
+    {
+      "tag": "hospitality",
+      "patterns": [
+        "What are your hospitality events?",
+        "Tell me more about hospitality"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "myrewards",
+      "patterns": [
+        "What is MyRewards?",
+        "Tell me more about MyRewards"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "previous",
+      "patterns": [
+        "What prevous work have you done?",
+        "Tell me about some of your previous work",
+        "Do you have any previous work?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "What do you call a fish without eyes? Fsh.",
+        "What do you call an alligator detective? An investi-gator.",
+        "Why did the scarecrow win an award? Because he was outstanding in his field. ",
+        "Why shouldnt you write with a broken pencil? Because its pointless."
+      ]
+    }
+  ]
+}
