@@ -8,8 +8,8 @@ install:
  - npm install
 
 script:
-  - docker pull gabrielsato1/XYZ
-  - docker run -v $PWD/:/app/report/gabrielsato1/XYZ
+  - docker pull gabrielsato1/xyz
+  - docker run -v $PWD/:/app/report/gabrielsato1/xyz
 
 after_script:
  - bash ./telegram_notification.sh 
